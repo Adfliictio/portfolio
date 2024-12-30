@@ -1,0 +1,55 @@
+
+
+
+
+h2{
+	text-align: center;
+color: blue;
+}
+
+.title{
+	border: solid 3px darkgoldenrod;
+	padding: 10px;
+	background-color: bisque;
+}
+
+
+body {
+	border:2px red solid;
+	background-color:lightskyblue;
+}
+
+.header{
+	border: 2px green solid;
+	text-align: center;
+	width: 100%;
+	background-color: palevioletred;
+	border-width: 100%;
+
+
+}
+
+.clm {
+	width: 65%;
+	overflow: scroll;
+	border: solid 1px red;
+	margin: 0 auto;
+
+}
+
+.img {
+
+	border: solid 2px blue;
+	width: auto;
+
+}
+
+
+.link { 
+text-align: center;
+border: solid 2px darkgoldenrod;
+}
+
+.footer{
+
+}

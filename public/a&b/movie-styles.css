@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: bisque;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+h1 {font-size: 2.3em;} h2 {color: blue; text-shadow:2px 2px 2px royalblue; font-style: italic; font-size: 1.8em;} h3 {font-size: 1.3em;} h4 {font-size: 1em;}  h5 {font-size: .83em;} h6 {font-size: .67em;}
+
+
+img {
+	width: 100%;
+	display: block;
+	
+}
+
+/* header */
+
+.wvy-underline {
+	text-decoration: underline 2px black wavy;
+}
+
+.header {
+	text-align: center;
+	background: bisque;
+	padding: 20px;
+}
+
+/* 2 column containers */
+
+.card-sect {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.row {
+	padding: 30px;
+	border: 4px outset blue;
+	border-radius: 10px;
+	display: inline-block;
+	background-color: lightblue;
+	margin: 20px;
+	box-shadow: 9px 9px 9px 1px royalblue;
+
+}
+.image-container {
+	border: 3px outset blue;
+	border-radius: 10px;
+	margin: auto;
+	overflow: scroll;
+
+
+}
+
+
+.clm {
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+
+.alt-clm {
+	width: 50%;
+	float: right;
+	padding: 10px;
+}
+
+.clm-container:after {
+	display: table;
+	clear: both;
+}
+
+.clm-container p {
+	text-align: left;
+}
+
+
+.fun{
+	font-family: cursive;
+	font-weight: bold;
+	color: red;
+	text-decoration: underline 2px green;
+}
+.green{
+	color: green;
+}
+.moonwind{
+	font-family: fantasy;
+	font-weight: 800;
+	color: royalblue;
+	text-decoration: overline underline dashed 2px;
+	cursor: grab;
+}
+.moonwind:active {
+	cursor: grabbing;
+}
