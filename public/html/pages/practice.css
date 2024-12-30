@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+#main-img {
+width: 400px;
+height: 400px;
+display: block;
+position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid green;}
+.menu {
+  
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a, .log-in {
+  font-family: fantasy;
+  font-size: 1.5rem;
+  background-color: bisque;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.log-in {
+  font-family: fantasy;
+  background-color:bisque;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+  border: 3px solid lightgoldenrodyellow;
+  border-style: groove;
+}
+
+body {
+    background-image: url(../images/png-logo/logo-bland.png);
+    background-size:1rem,1rem;
+    background-repeat: repeat;
+    background-color:bisque;} 
+    
+
+}

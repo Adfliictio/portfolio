@@ -1,0 +1,75 @@
+
+
+#main-img {
+width: 400px;
+height: 400px;
+display: block;
+position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  }
+ #img {padding: 70px 0;
+  border: 1px solid green;
+}
+
+#headsec {
+	background-color: bisque;
+
+}
+ .nav-clmn{
+
+display: inline-block;
+list-style-type: none;
+border: 1px solid black;
+text-align: center;
+width: 100%;
+font-family: fantasy;
+font-size: 2rem;
+}
+
+.nav-clmn {
+	position: sticky;
+}
+
+
+
+
+
+li a:hover {
+  background-color:#eed5b7;
+  color: black;
+}
+
+body {
+		background-image: url(../images/png-logo/logo-bland.png);
+		background-size:1rem,1rem;
+		background-repeat: repeat;
+		background-color:bisque;}	
+.main-img img {
+	width: 400px;
+	height: 400px;
+	display: inline-flex;
+	
+}
+#top-nav, .nav-clmn, .nav-bttns{
+	display: block;
+
+	width: 100%;
+	
+}
+
+body,#log-in,#top-nav, .nav-clmn {
+	list-style-type: none;
+	display: inline-flex;
+	 border:5px solid darkgoldenrod;
+	 border-style: groove;
+	 border-radius: 10px;
+	 border-collapse:collapse;
+	 border-spacing: 100px;
+	 border-right-color: #f5bc00;
+	 border-left-color: #b38b07;
+		font-size: 1.3rem;
+		background-color: bisque;
+		font-family: fantasy;
+		padding: 10px;
+}

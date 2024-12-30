@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Kid Shifu,Music,Youtube">
+	<meta name="author" content="Brandon Perry Price">
+	<meta http-equiv="refresh" content="">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+<style> 
+
+.storms{
+	color:Black;
+	text-decoration: overline;
+	text-decoration-style: dotted;
+}
+	.buttons {
+		color:red !important;
+		font-size: 20px !important;
+		padding: 10px;
+
+	}
+
+	video {
+		margin:auto;
+		display: inline-block;
+		width: 100%;
+	}
+
+	div {
+		width:30%;  
+ 		display:inline-block;
+  		width: 300px;
+  		margin: auto;
+  		background-color: #bisque;
+  		font-weight: bold;
+							}
+	.navcontainer {
+  		list-style-type: none;
+  		margin: 0;
+  		margin-right: 175px;
+  		padding: 0;
+  		overflow: hidden;
+  		background-color: #D6EEEE;
+									}
+ 	li {
+  		float: left;
+					}
+
+	video,li a,form,{
+  		display: block;
+  		color: indianred;
+		font-size:large;
+		font-weight: bold;
+  		text-align: center;
+  		padding: 16px;
+  		text-decoration: underline;
+  		text-decoration-style: wavy;
+									}
+
+	li a:hover {
+		background-color: #FAF66C;}
+
+		button:hover {
+			background-color: #FAF66C;}
+								
+	
+	body,form{
+		color:red;
+	 	text-decoration: underline;
+	 	text-decoration-style: solid;
+	 	text-decoration-color: black;
+	 	font-family: fantasy;
+
+		background-image: url(../images/png-logo/logo-bland.png);
+		background-size:25px,75px;
+		background-color:rgb(250,250,90);}		
+
+	hr {border:2px solid black;}	
+
+	.navcontainer, video, h1, h2, h3, h4, p, body, img, button, a, pre, caption,form,label {
+		background-color: bisque;
+		text-align: center;		
+		border:5px solid darkgoldenrod;
+		border-collapse:collapse;
+		border-radius: 10px;
+		border-right-color: red;
+		border-top-right-radius: 1px;
+		border-left-color: blue;
+		border-bottom-left-radius: 25px;
+		border-style: groove;
+								}
+	td:hover {background-color: #D6EEEE;}
+
+	th:hover {background-color: #D6EEEE;}
+	
+	caption {
+		font-size: xx-large;}
+	
+	th {text-align: left;}
+	
+	 p, table th,td,form {
+		border:5px solid darkgoldenrod;
+		border-collapse:collapse;
+		border-spacing: 100px;
+		border-radius: 10px;
+		border-right-color: red;
+		border-top-right-radius: 1px;
+		border-left-color: blue;
+		border-bottom-left-radius: 50px;
+		border-style: groove;
+		font-size: larger;
+		background-color: bisque;
+		font-family: fantasy;
+		color: rebeccapurple;
+		padding:10px;
+						}
+	
+	tr:nth-child(even) {
+  		background-color:bisque;
+								}
+	ul {
+		list-style-type: none;
+	}
+
+	table th {font-weight: lighter}	
+</style>
+	
+	<title>Shifu</title>
+
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+	
+</head>	
+<body>
+
+	<form action="/action_page.php">
+  		<label for="Username">Username:</label>
+  		<input type="text" id="Username" name="Username"><br><br>
+ 		<label for="password">Password:</label>
+    	<input type="password" id="password" name="password"><br><br>
+  		<input type="submit" value="Submit">
+	</form>
+
+
+
+	<div class="navcontainer">
+	 <div class="two-column">
+			<img	src="../images/png-logo/logo-largefloatcenter.png" alt="			logolargefloatcenter" style="width:300px;height:300px;margin: center;">
+   </div>
+ <div class="two-column">
+		<ul class="buttons">
+ 		  <li><a href="band.html">Music</a></li>
+ 	 	  <li><a href="#news">News</a></li>
+  		<li><a href="#contact">Contact</a></li>
+  		<li><a href="#about">About</a></li>
+	</ul>
+ </div>
+</div>
+<hr>
+
+<p> Press "Play" To Start 
+	<span class="storms"><b>"STORMS"</b></span></p>
+<div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <br><br>
+  
+  <video  id="shifu1" width="420" >
+    <source src="../storms.mp4" type="video/mp4">
+    Your browser does not support This Video.
+  </video>
+</div> 
+
+<script> 
+var video = document.getElementById("shifu1"); 
+function playPause() { 
+  if (video.paused) 
+    video.play(); 
+  else 
+    video.pause();
+											} 
+</script> 
+<hr>
+<div class="audio">
+	<p>Stranded Machine Under The Sun Moon</p>
+	<audio controls>
+	<legend>Stranded Machine Under The Sun Moon</legend>
+  <source src="../M/Stranded_Machine_Under_The_Sand_Moon.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+</div>
+<hr>
+
+<hr>
+	<div>
+  		<div>
+  			<h2><button type="button" onclick="myFunction()">(>^0^)></button>
+				<p id="demo1">Kid Shifu</p>
+<script>
+		function myFunction() {document.getElementById("demo1").innerHTML = "Brandon Perry Price";}</script></h2>
+		</div>
+
+ 	<p>Brandon Perry Price</p>
+  	<p><button type="button"
+		onclick="document.getElementById('demo').innerHTML = Date()">
+		Click me to display Date and Time.</button>
+	<p id="demo"></p>
+		</div>
+<hr>
+
+<div id="table1">
+  <table style="width:100%">
+	<caption>Title For Table</caption>
+		<tr style="height: 50px;">
+			<th style="width:20%">Headers, X & Y</th>
+			<th> table header 1	</th>
+			<th>table header 2	</th>
+			<th>table header 3	</th>
+		</tr>
+	<tr style="height:50px">
+			<td>Table Header 1</td>
+			<td>cell 1</td>
+			<td>cell 2</td>
+			<td>cell 3</td>
+	</tr>
+		<tr>
+			<td>Table Header 2</td>
+			<td style="width:10%">cell 4</td>
+			<td style="width:10%">cell 5</td>
+			<td style="width:10%">cell 6</td>
+		</tr>
+	<tr>
+			<td style="width:10%">Table Header 3</td>
+			<td>cell 7</td>
+			<td>cell 8</td>
+			<td>cell 9</td>
+	</tr>
+
+		</table>
+	</div>
+<hr>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">There Is A Way That Seems Right To A Man,But It's End Is The Way Of DEATH.
+</textarea>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+<hr>
+
+<div style="background-color:#bisque;">
+  <h2>Header</h2>
+  <p>paragraph 1</p>
+  <p>Paragraph 2</p>
+</div>
+
+<div style="background-color:#bisque;">
+  <h2>Header 2</h2>
+  <p>paragraph 3</p>
+  <p>paragraph 4</p>
+</div>
+
+<div style="background-color:#bisque;">
+  <h2>Header 3</h2>
+  <p>paragraph 5</p>
+  <p>paragraph 6</p>
+</div>
+
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<hr>
+	<p>My First Paragraph...</p>
+		<p>There Is A Way That Seems Right To A Man,<br> But It's End Is The Way Of DEATH.
+			</p>
+<hr>
+
+	<a href="https://www.w3schools.com/html/html_basic.asp" title="Click To Jump To'W3Schools'!" >Link To W3 Schools.</a>
+		<br><br><br>
+	<img src="w3schools.jpg" alt="^W3Schools.com^" title="Link Above To Jump To 'W3Schools'!" width="104" height="142">
+	<hr>
+
+	<p style="color:red" > Red Paragraph </p>
+	<hr>
+	
+	<p title="I'm a Fucking TOOL">Hover To Show ToolTip.</p>
+	<img src="https://www.w3schools.com/images/img_girl.jpg">
+	<img src="img_girl.jpg" width="500" height="600" alt="girl with jacket" title="hover">
+	<hr>
+
+<h1 style="font-size:60px";>60px header</h1>
+	<hr>
+<pre title="interesting">this should 
+	follow my
+	'enters'</pre>
+
+</body>
+</html>
